@@ -54,7 +54,7 @@ def check_for_person_and_greet():
         except Exception as e:
             print(f"物体認識エラー: {e}")
         
-        #time.sleep(1)
+        time.sleep(0.3)
 
 def load_combined_sentiment_dict(paths):
     sentiment = {}
