@@ -12,7 +12,7 @@ from waitress import serve
 app = Flask(__name__)
 
 # モデル・ラベル初期化
-interpreter = tflite.Interpreter(model_path="efficientdet_lite0.tflite")
+interpreter = tflite.Interpreter(model_path="efficientdet_lite0.tflite", num_threads=4)
 interpreter.allocate_tensors()
 input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
