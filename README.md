@@ -1,6 +1,6 @@
 # rasp5_bot
 
-raspberry pi 5 chatbot code
+raspberry pi 5 chatbot(ras_bot) code
 
 file directory structure is as follows
 
