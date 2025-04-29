@@ -9,6 +9,6 @@ file directory structure is as follows
 Flask server starts and accepts image recognition requests independently
 
 Notes
-1. you need to install additional files for voice recongnition and voise sysnthesis, like recongtion parameter file and Japanese dictionary for syntax analysis
-2. to use different Python environment for main routine(integration directory) and an image recognition script(tflite directory) due to library confilict
+1. you need to install additional files for voice recongnition and voice sysnthesis, like recongtion parameter file and Japanese dictionary for syntax analysis
+2. to use different Python virtual environment for main routine(integration directory) and an image recognition script(tflite directory) due to library confilict
 
