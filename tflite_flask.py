@@ -70,5 +70,6 @@ def detect_route():
 
 if __name__ == '__main__':
 	# when you limit access only from the local machine, use a loopback address instead of 0.0.0.0
-    app.run(host='0.0.0.0', port=5000)
+    #app.run(host='0.0.0.0', port=5000)
+    serve(app, host='0.0.0.0', port=5000)
 
